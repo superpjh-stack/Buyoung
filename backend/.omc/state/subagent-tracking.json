@@ -1,0 +1,40 @@
+{
+  "agents": [
+    {
+      "agent_id": "aa3a9ce01ee72b010",
+      "agent_type": "bkit:gap-detector",
+      "started_at": "2026-06-02T09:22:51.667Z",
+      "parent_mode": "none",
+      "status": "running"
+    },
+    {
+      "agent_id": "a89b826fd4e8d853d",
+      "agent_type": "bkit:pdca-iterator",
+      "started_at": "2026-06-02T09:30:07.860Z",
+      "parent_mode": "none",
+      "status": "completed",
+      "completed_at": "2026-06-02T09:32:32.929Z",
+      "duration_ms": 145069
+    },
+    {
+      "agent_id": "aeb120da94136a659",
+      "agent_type": "bkit:pdca-iterator",
+      "started_at": "2026-06-02T09:40:02.912Z",
+      "parent_mode": "none",
+      "status": "running"
+    },
+    {
+      "agent_id": "a72825bd5dafd1d66",
+      "agent_type": "bkit:report-generator",
+      "started_at": "2026-06-02T09:53:02.731Z",
+      "parent_mode": "none",
+      "status": "completed",
+      "completed_at": "2026-06-02T09:55:02.883Z",
+      "duration_ms": 120152
+    }
+  ],
+  "total_spawned": 4,
+  "total_completed": 2,
+  "total_failed": 0,
+  "last_updated": "2026-06-02T17:06:09.458Z"
+}

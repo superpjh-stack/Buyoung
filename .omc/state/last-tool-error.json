@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"cd \\\"C:/gerardo/01 SmallSF/Buyoung_AI_MES\\\" && git rm --cached frontend 2>&1 && rm -rf frontend/.git && echo \\\"frontend .git removed\\\"\",\"timeout\":10000,\"description\":\"Remove frontend embed...",
+  "error": "Exit code 1\nerror: the following file has staged content different from both the\nfile and the HEAD:\n    frontend\n(use -f to force removal)",
+  "timestamp": "2026-06-02T17:21:13.916Z",
+  "retry_count": 1
+}

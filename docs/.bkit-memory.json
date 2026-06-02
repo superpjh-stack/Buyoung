@@ -1,0 +1,10 @@
+{
+  "sessionCount": 5,
+  "lastSession": {
+    "startedAt": "2026-06-01T15:17:34.332Z",
+    "platform": "claude",
+    "level": "Starter"
+  },
+  "currentFeature": "api-design",
+  "phase": "do"
+}

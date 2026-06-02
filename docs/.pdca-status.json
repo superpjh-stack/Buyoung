@@ -1,0 +1,1032 @@
+{
+  "version": "2.0",
+  "lastUpdated": "2026-06-02T16:53:02.784Z",
+  "activeFeatures": [
+    "api-design",
+    "backend",
+    "auth",
+    "system",
+    "order",
+    "cad",
+    "receiving",
+    "production",
+    "equipment",
+    "shipping",
+    "quality",
+    "ai",
+    "websocket",
+    "alembic",
+    "frontend",
+    "login",
+    "(dashboard)",
+    "orders",
+    "standards",
+    "kpi",
+    "data",
+    "admin"
+  ],
+  "primaryFeature": "api-design",
+  "features": {
+    "api-design": {
+      "phase": "completed",
+      "startedAt": "2026-06-01T01:00:00.000Z",
+      "checkedAt": "2026-06-02T08:00:00.000Z",
+      "iteratedAt": "2026-06-02T09:35:00.000Z",
+      "completedAt": "2026-06-02T09:50:00.000Z",
+      "planDoc": "docs/01-plan/features/api-design.plan.md",
+      "designDoc": "docs/02-design/features/api-design.design.md",
+      "analysisDoc": "docs/03-analysis/api-design.analysis.md",
+      "reportDoc": "docs/04-report/api-design.report.md",
+      "matchRate": 90,
+      "iterationCount": 2
+    },
+    "backend": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-06-01T03:29:33.474Z",
+        "lastUpdated": "2026-06-02T16:53:02.783Z"
+      },
+      "lastFile": "C:\\gerardo\\01 SmallSF\\Buyoung_AI_MES\\backend\\seed.py"
+    },
+    "auth": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-06-01T03:30:09.450Z",
+        "lastUpdated": "2026-06-02T07:58:10.868Z"
+      },
+      "lastFile": "C:\\gerardo\\01 SmallSF\\Buyoung_AI_MES\\backend\\app\\auth\\schemas.py"
+    },
+    "system": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-06-01T03:30:51.313Z",
+        "lastUpdated": "2026-06-01T03:30:51.313Z"
+      },
+      "lastFile": "C:\\gerardo\\01 SmallSF\\Buyoung_AI_MES\\backend\\app\\domains\\system\\models.py"
+    },
+    "order": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-06-01T03:31:10.303Z",
+        "lastUpdated": "2026-06-02T09:32:06.529Z"
+      },
+      "lastFile": "C:\\gerardo\\01 SmallSF\\Buyoung_AI_MES\\backend\\app\\domains\\order\\router.py"
+    },
+    "cad": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-06-01T03:31:15.149Z",
+        "lastUpdated": "2026-06-02T06:20:43.554Z"
+      },
+      "lastFile": "C:\\gerardo\\01 SmallSF\\Buyoung_AI_MES\\backend\\app\\domains\\cad\\router.py"
+    },
+    "receiving": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-06-01T03:31:38.551Z",
+        "lastUpdated": "2026-06-02T16:08:14.930Z"
+      },
+      "lastFile": "C:\\gerardo\\01 SmallSF\\Buyoung_AI_MES\\frontend\\src\\app\\(dashboard)\\receiving\\page.tsx"
+    },
+    "production": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-06-01T03:32:03.901Z",
+        "lastUpdated": "2026-06-02T16:13:17.704Z"
+      },
+      "lastFile": "C:\\gerardo\\01 SmallSF\\Buyoung_AI_MES\\frontend\\src\\app\\(dashboard)\\production\\page.tsx"
+    },
+    "equipment": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-06-01T03:32:11.015Z",
+        "lastUpdated": "2026-06-02T07:09:14.302Z"
+      },
+      "lastFile": "C:\\gerardo\\01 SmallSF\\Buyoung_AI_MES\\frontend\\src\\app\\(dashboard)\\equipment\\page.tsx"
+    },
+    "shipping": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-06-01T03:32:21.537Z",
+        "lastUpdated": "2026-06-02T15:39:13.651Z"
+      },
+      "lastFile": "C:\\gerardo\\01 SmallSF\\Buyoung_AI_MES\\frontend\\src\\app\\(dashboard)\\shipping\\page.tsx"
+    },
+    "quality": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-06-01T03:32:39.019Z",
+        "lastUpdated": "2026-06-02T15:38:45.017Z"
+      },
+      "lastFile": "C:\\gerardo\\01 SmallSF\\Buyoung_AI_MES\\frontend\\src\\app\\(dashboard)\\quality\\page.tsx"
+    },
+    "ai": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-06-01T03:34:39.065Z",
+        "lastUpdated": "2026-06-02T07:09:31.548Z"
+      },
+      "lastFile": "C:\\gerardo\\01 SmallSF\\Buyoung_AI_MES\\frontend\\src\\app\\(dashboard)\\ai\\page.tsx"
+    },
+    "websocket": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-06-01T03:34:47.350Z",
+        "lastUpdated": "2026-06-01T03:34:47.350Z"
+      },
+      "lastFile": "C:\\gerardo\\01 SmallSF\\Buyoung_AI_MES\\backend\\app\\websocket\\router.py"
+    },
+    "alembic": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-06-01T03:34:52.633Z",
+        "lastUpdated": "2026-06-01T03:34:52.633Z"
+      },
+      "lastFile": "C:\\gerardo\\01 SmallSF\\Buyoung_AI_MES\\backend\\alembic\\env.py"
+    },
+    "frontend": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-06-02T07:06:41.179Z",
+        "lastUpdated": "2026-06-02T16:12:02.019Z"
+      },
+      "lastFile": "C:\\gerardo\\01 SmallSF\\Buyoung_AI_MES\\frontend\\src\\app\\page.tsx"
+    },
+    "login": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-06-02T07:08:24.984Z",
+        "lastUpdated": "2026-06-02T07:08:24.984Z"
+      },
+      "lastFile": "C:\\gerardo\\01 SmallSF\\Buyoung_AI_MES\\frontend\\src\\app\\login\\page.tsx"
+    },
+    "(dashboard)": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-06-02T07:08:27.671Z",
+        "lastUpdated": "2026-06-02T07:44:34.722Z"
+      },
+      "lastFile": "C:\\gerardo\\01 SmallSF\\Buyoung_AI_MES\\frontend\\src\\app\\(dashboard)\\page.tsx"
+    },
+    "orders": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-06-02T07:09:02.830Z",
+        "lastUpdated": "2026-06-02T16:13:08.167Z"
+      },
+      "lastFile": "C:\\gerardo\\01 SmallSF\\Buyoung_AI_MES\\frontend\\src\\app\\(dashboard)\\orders\\page.tsx"
+    },
+    "standards": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-06-02T16:05:48.192Z",
+        "lastUpdated": "2026-06-02T16:05:48.192Z"
+      },
+      "lastFile": "C:\\gerardo\\01 SmallSF\\Buyoung_AI_MES\\frontend\\src\\app\\(dashboard)\\standards\\page.tsx"
+    },
+    "kpi": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-06-02T16:06:04.730Z",
+        "lastUpdated": "2026-06-02T16:06:04.730Z"
+      },
+      "lastFile": "C:\\gerardo\\01 SmallSF\\Buyoung_AI_MES\\frontend\\src\\app\\(dashboard)\\kpi\\page.tsx"
+    },
+    "data": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-06-02T16:06:58.355Z",
+        "lastUpdated": "2026-06-02T16:09:06.964Z"
+      },
+      "lastFile": "C:\\gerardo\\01 SmallSF\\Buyoung_AI_MES\\frontend\\src\\app\\(dashboard)\\data\\page.tsx"
+    },
+    "admin": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-06-02T16:08:29.039Z",
+        "lastUpdated": "2026-06-02T16:08:29.039Z"
+      },
+      "lastFile": "C:\\gerardo\\01 SmallSF\\Buyoung_AI_MES\\frontend\\src\\app\\(dashboard)\\admin\\page.tsx"
+    }
+  },
+  "pipeline": {
+    "currentPhase": 4,
+    "level": "Dynamic",
+    "phaseHistory": [
+      "plan",
+      "design"
+    ]
+  },
+  "session": {
+    "startedAt": "2026-06-01T00:30:12.559Z",
+    "onboardingCompleted": true,
+    "lastActivity": "2026-06-02T16:53:02.784Z"
+  },
+  "history": [
+    {
+      "phase": "plan",
+      "feature": "api-design",
+      "completedAt": "2026-06-01T00:50:00.000Z"
+    },
+    {
+      "phase": "design",
+      "feature": "api-design",
+      "completedAt": "2026-06-01T00:55:00.000Z"
+    },
+    {
+      "timestamp": "2026-06-01T03:29:33.474Z",
+      "feature": "backend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-01T03:29:35.857Z",
+      "feature": "backend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-01T03:29:43.059Z",
+      "feature": "backend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-01T03:29:51.920Z",
+      "feature": "backend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-01T03:29:54.286Z",
+      "feature": "backend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-01T03:30:00.878Z",
+      "feature": "backend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-01T03:30:09.450Z",
+      "feature": "auth",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-01T03:30:15.821Z",
+      "feature": "auth",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-01T03:30:19.695Z",
+      "feature": "auth",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-01T03:30:26.077Z",
+      "feature": "auth",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-01T03:30:51.313Z",
+      "feature": "system",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-01T03:31:10.303Z",
+      "feature": "order",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-01T03:31:15.149Z",
+      "feature": "cad",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-01T03:31:38.551Z",
+      "feature": "receiving",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-01T03:32:03.901Z",
+      "feature": "production",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-01T03:32:11.015Z",
+      "feature": "equipment",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-01T03:32:21.537Z",
+      "feature": "shipping",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-01T03:32:39.019Z",
+      "feature": "quality",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-01T03:32:45.624Z",
+      "feature": "order",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-01T03:33:07.260Z",
+      "feature": "order",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-01T03:33:20.642Z",
+      "feature": "cad",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-01T03:33:37.004Z",
+      "feature": "receiving",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-01T03:33:47.371Z",
+      "feature": "production",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-01T03:33:53.671Z",
+      "feature": "quality",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-01T03:34:06.195Z",
+      "feature": "shipping",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-01T03:34:23.676Z",
+      "feature": "equipment",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-01T03:34:39.065Z",
+      "feature": "ai",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-01T03:34:47.350Z",
+      "feature": "websocket",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-01T03:34:52.633Z",
+      "feature": "alembic",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-01T05:21:50.203Z",
+      "feature": "backend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-01T05:53:17.853Z",
+      "feature": "backend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-01T06:06:33.417Z",
+      "feature": "backend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-01T07:59:08.660Z",
+      "feature": "backend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-01T08:10:06.015Z",
+      "feature": "cad",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-01T08:10:13.493Z",
+      "feature": "receiving",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-01T15:39:31.448Z",
+      "feature": "receiving",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-01T15:39:42.075Z",
+      "feature": "production",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-01T15:39:48.943Z",
+      "feature": "equipment",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-01T15:39:51.700Z",
+      "feature": "shipping",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-01T15:39:55.814Z",
+      "feature": "quality",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-01T15:40:17.126Z",
+      "feature": "receiving",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-01T15:40:26.482Z",
+      "feature": "production",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-01T15:40:35.823Z",
+      "feature": "equipment",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-01T15:40:53.169Z",
+      "feature": "shipping",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-01T15:40:55.463Z",
+      "feature": "quality",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T06:19:22.126Z",
+      "feature": "backend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T06:19:35.762Z",
+      "feature": "backend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T06:20:05.617Z",
+      "feature": "backend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T06:20:43.554Z",
+      "feature": "cad",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T06:30:47.223Z",
+      "feature": "ai",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T06:31:03.691Z",
+      "feature": "ai",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T06:31:18.014Z",
+      "feature": "ai",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T06:31:24.348Z",
+      "feature": "ai",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T06:31:46.832Z",
+      "feature": "ai",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T07:06:41.179Z",
+      "feature": "frontend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T07:06:45.304Z",
+      "feature": "frontend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T07:07:59.817Z",
+      "feature": "frontend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T07:08:07.413Z",
+      "feature": "frontend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T07:08:16.638Z",
+      "feature": "frontend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T07:08:24.984Z",
+      "feature": "login",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T07:08:27.671Z",
+      "feature": "(dashboard)",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T07:08:56.796Z",
+      "feature": "(dashboard)",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T07:09:02.830Z",
+      "feature": "orders",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T07:09:14.302Z",
+      "feature": "equipment",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T07:09:31.548Z",
+      "feature": "ai",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T07:09:48.544Z",
+      "feature": "frontend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T07:10:33.975Z",
+      "feature": "frontend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T07:14:09.305Z",
+      "feature": "(dashboard)",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T07:14:25.198Z",
+      "feature": "frontend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T07:44:34.722Z",
+      "feature": "(dashboard)",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T07:51:35.683Z",
+      "feature": "backend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T07:52:53.007Z",
+      "feature": "backend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T07:58:04.886Z",
+      "feature": "auth",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T07:58:10.868Z",
+      "feature": "auth",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T09:30:43.595Z",
+      "feature": "order",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T09:30:55.621Z",
+      "feature": "order",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T09:31:06.541Z",
+      "feature": "order",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T09:31:17.585Z",
+      "feature": "production",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T09:31:31.405Z",
+      "feature": "backend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T09:31:38.062Z",
+      "feature": "backend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T09:31:48.142Z",
+      "feature": "backend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T09:31:55.348Z",
+      "feature": "order",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T09:32:06.529Z",
+      "feature": "order",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T09:41:16.047Z",
+      "feature": "receiving",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T09:41:26.852Z",
+      "feature": "receiving",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T09:41:37.263Z",
+      "feature": "receiving",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T09:41:54.750Z",
+      "feature": "shipping",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T09:42:07.616Z",
+      "feature": "shipping",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T09:42:17.641Z",
+      "feature": "backend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T09:42:24.075Z",
+      "feature": "backend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T15:37:42.106Z",
+      "feature": "frontend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T15:38:14.590Z",
+      "feature": "production",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T15:38:45.017Z",
+      "feature": "quality",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T15:39:13.651Z",
+      "feature": "shipping",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T15:44:33.924Z",
+      "feature": "frontend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T16:03:05.474Z",
+      "feature": "frontend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T16:04:45.063Z",
+      "feature": "frontend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T16:04:48.123Z",
+      "feature": "production",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T16:05:48.192Z",
+      "feature": "standards",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T16:06:04.730Z",
+      "feature": "kpi",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T16:06:24.749Z",
+      "feature": "frontend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T16:06:58.355Z",
+      "feature": "data",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T16:08:14.930Z",
+      "feature": "receiving",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T16:08:29.039Z",
+      "feature": "admin",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T16:09:06.964Z",
+      "feature": "data",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T16:10:38.882Z",
+      "feature": "frontend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T16:11:13.596Z",
+      "feature": "frontend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T16:12:02.019Z",
+      "feature": "frontend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T16:12:07.003Z",
+      "feature": "production",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T16:12:21.807Z",
+      "feature": "production",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T16:12:28.943Z",
+      "feature": "production",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T16:12:37.576Z",
+      "feature": "production",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T16:13:08.167Z",
+      "feature": "orders",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T16:13:17.704Z",
+      "feature": "production",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-06-02T16:53:02.783Z",
+      "feature": "backend",
+      "phase": "do",
+      "action": "updated"
+    }
+  ]
+}

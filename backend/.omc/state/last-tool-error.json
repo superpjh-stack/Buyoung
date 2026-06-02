@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"python -c \\\"\\nimport socket\\ns = socket.create_connection(('127.0.0.1', 3000), timeout=2)\\ns.close()\\nprint('포트 3000: OPEN — 프론트엔드 실행 중')\\n\\\" 2>&1\",\"timeout\":5000,\"description\":\"Verify por...",
+  "error": "Exit code 1\nTraceback (most recent call last):\r\n  File \"<string>\", line 5, in <module>\r\n    print('��Ʈ 3000: OPEN \\u2014 ����Ʈ���� ���� ��')\r\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\nUnicodeEncodeError: 'cp949' codec can't encode character '\\u2014' in position 14: illegal multibyte sequence",
+  "timestamp": "2026-06-02T17:05:49.170Z",
+  "retry_count": 1
+}
